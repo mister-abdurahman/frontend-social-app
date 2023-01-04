@@ -82,7 +82,7 @@ const Form = () => {
 
   const login = async (values, onSubmitProps) => {
     // const loggedInResponse = await fetch("http://localhost:3001/auth/login", {
-    const loggedInResponse = await fetch("/auth/login", {
+    const loggedInResponse = await fetch("https://relaxed-scone-3e19fa.netlify.app/auth/login", {
     // const loggedInResponse = await fetch("https://relaxed-scone-3e19fa.netlify.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
