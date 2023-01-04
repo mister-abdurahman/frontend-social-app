@@ -30,6 +30,9 @@
     "eject": "react-scripts eject"
   },
   "proxy": "https://relaxed-scone-3e19fa.netlify.app/",
+  "headers": {
+    "access-control-allow-origin": "*"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
