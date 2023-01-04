@@ -36,7 +36,7 @@ const PostWidget = ({
 
   const patchLike = async () => {
     // const response = await fetch(`http://localhost:3001/posts/${postId}/like`, {
-    const response = await fetch(`/posts/${postId}/like`, {
+    const response = await fetch(`https://social-app-server.onrender.com/posts/${postId}/like`, {
     // const response = await fetch(`https://relaxed-scone-3e19fa.netlify.app/posts/${postId}/like`, {
       method: "PATCH",
       headers: {
@@ -67,7 +67,7 @@ const PostWidget = ({
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
           // src={`http://localhost:3001/assets/${picturePath}`}
-          src={`/assets/${picturePath}`}
+          src={`https://social-app-server.onrender.com/assets/${picturePath}`}
           // src={`https://relaxed-scone-3e19fa.netlify.app/assets/${picturePath}`}
         />
       )}

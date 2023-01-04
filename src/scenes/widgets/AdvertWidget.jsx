@@ -21,7 +21,7 @@ const AdvertWidget = () => {
         height="auto"
         alt="advert"
         // src="http://localhost:3001/assets/info4.jpeg"
-        src="/assets/info4.jpeg"
+        src="https://social-app-server.onrender.com/assets/info4.jpeg"
         // src="https://relaxed-scone-3e19fa.netlify.app/assets/info4.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />

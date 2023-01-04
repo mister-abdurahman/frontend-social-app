@@ -10,7 +10,7 @@ const UserImage = ({ image, size = "60px" }) => {
         alt="user"
         // src={`http://localhost:3001/assets/${image}`}
         // src={`/assets/${image}`}
-        src={`https://relaxed-scone-3e19fa.netlify.app/assets/${image}`}
+        src={`https://social-app-server.onrender.com/assets/${image}`}
       />
     </Box>
   );

@@ -65,8 +65,7 @@ const Form = () => {
 
     const savedUserResponse = await fetch(
       // "http://localhost:3001/auth/register",
-      "/auth/register",
-      // "https://relaxed-scone-3e19fa.netlify.app/auth/register",
+      "https://social-app-server.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
