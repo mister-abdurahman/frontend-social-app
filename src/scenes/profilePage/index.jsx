@@ -16,8 +16,8 @@ const ProfilePage = () => {
 
   const getUser = async () => {
     // const response = await fetch(`http://localhost:3001/users/${userId}`, {
-    // const response = await fetch(`/users/${userId}`, {
-    const response = await fetch(`https://relaxed-scone-3e19fa.netlify.app/users/${userId}`, {
+    const response = await fetch(`/users/${userId}`, {
+    // const response = await fetch(`https://relaxed-scone-3e19fa.netlify.app/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
